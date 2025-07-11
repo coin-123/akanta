@@ -1,0 +1,50 @@
+#ourservice{
+    margin-top: 7rem;
+    width: 100vw;
+    height: calc(100vh - 6.2rem );
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicecontents{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.servicecontent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.servicehead{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.serviceimgs{
+    width: 38%;
+    height: 222px;
+}
+
+.serviceimg{
+    width: 100%;
+    height: 100%;
+}
+
+.servicetext{
+    width: 40%;
+    /* background-color: red; */
+    /* text-align: center; */
+
+}

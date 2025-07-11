@@ -1,0 +1,72 @@
+#introsection{
+    width: 100vw;
+    height: calc(100vh - 6.2rem);
+    /* top: 109px; */
+    /* opacity: 1; */
+    background: rgba(251, 128, 90, 0.13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introcontent{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.introtext{
+    width: 40%;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.introtextholder{
+    /* background-color: red ; */
+    width: 100%;
+    height: 95%;
+    margin-bottom: 35px;
+}
+
+.introhead{
+    font-size: 48px;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+.introbtns{
+    width: 100%;
+
+}
+
+.introbtn{
+        color: black;
+    font-size: 1.05rem;
+    /* font-weight: 500; */
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    /* transition: all 0.3s ease-in-out; */
+    border: none;
+    cursor: pointer;
+    background-color: rgb(252, 120, 97);
+}
+
+.introimgs{
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+        position: absolute;
+    /* top: 5%; */
+    right: 188px;
+
+
+}

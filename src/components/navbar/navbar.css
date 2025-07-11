@@ -1,0 +1,57 @@
+#navbar{
+    background-color: #ffffff;
+     width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.2rem;
+    padding-top: 24px;
+    padding-right: 224px;
+    padding-bottom: 24px;
+    padding-left: 224px;
+    gap: 124px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin: 0 auto;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    /* color: black; */
+}
+
+.navlink{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navbtns{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.navbtn{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(252, 120, 97);
+}
+
+.btn1{
+    border: 1px solid black;
+    background-color: transparent;
+}
