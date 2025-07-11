@@ -25,17 +25,35 @@ const Brand = () => {
     setNavReady(true);
   }, []);
 
+
+  // const FadeInOnScroll = () => {
+  const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+    return () => observer.disconnect();
+  }, []);
   // const [controlledSwiper, setSwiper] = useState(null);
 
   return (
           <section id="brandsec">
-
-
-
-
-
-
-        <div className="brandcontents">
+        <div 
+          ref={ref}
+      className={` brandcontents  fade-in-on-scroll${isVisible ? ' fade-in' : ''}`}
+        
+        >
                 <div className="brandhead">
                 <h2 className="brandtitle">
                     A brand you can trust
